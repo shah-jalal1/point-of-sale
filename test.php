@@ -23,9 +23,9 @@ function fill_product() {}
 
             while($row = mysqli_fetch_assoc($result)) {
 
-                $output = '<option value="'.$row["id"].'">'.$row["description"].'</option>';
+//                $output = '<option value="'.$row["id"].'">'.$row["description"].'</option>';
 
-//                $output = print_r($row['description']);
+                $output = print_r($row['description']);
 
             }
 
@@ -59,14 +59,16 @@ function fill_product() {}
         </div><!-- /.container-fluid -->
     </section>
 
-<!--    --><?php
-//
-//        $obj = new Product;
-//
-//        $obj->fillProduct();
-//
-//
-//    ?>
+    <?php
+
+        $obj = new Product;
+
+        $obj->fillProduct();
+        fillProduct();
+//         echo $obj;
+
+
+    ?>
 
     <!-- Main content -->
     <section class="content">

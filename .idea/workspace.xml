@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e60d29d3-16cb-4665-9c06-95e7370db9af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/sales.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/sales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-sales2.php" beforeDir="false" afterPath="$PROJECT_DIR$/create-sales2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,9 @@
       <workItem from="1610611580445" duration="1202000" />
       <workItem from="1610803383837" duration="109000" />
       <workItem from="1611124109144" duration="8584000" />
-      <workItem from="1611380575452" duration="4496000" />
+      <workItem from="1611380575452" duration="7445000" />
+      <workItem from="1611413424721" duration="739000" />
+      <workItem from="1612112319370" duration="599000" />
     </task>
     <servers />
   </component>
@@ -168,7 +168,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/dist/js/sales.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

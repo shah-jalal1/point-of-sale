@@ -60,27 +60,104 @@ include "header.php";
                             </div>
 
                             <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="inputCity">City</label>
-                                    <input type="text" class="form-control" id="inputCity">
+                                <div class="form-group col-md-8">
+                                    <label for="inputCity">Select Customer</label>
+                                    <input type="text" class="form-control" id="inputCity" required>
                                 </div>
+
                                 <div class="form-group col-md-4">
-                                    <label for="inputState">State</label>
-                                    <select id="inputState" class="form-control">
-                                        <option selected>Choose...</option>
-                                        <option>...</option>
-                                    </select>
+                                    <label for="inputCity">Select Customer</label>
+                                    <div> <button>Add Client</button></div>
                                 </div>
-                                <div class="form-group col-md-2">
-                                    <label for="inputZip">Zip</label>
-                                    <input type="text" class="form-control" id="inputZip">
-                                </div>
+
                             </div>
 
+
+
+                            <div class="row">
+
+                                <hr>
+
+                                <!--=================================================================== -->
+                                <!--                     Tax and Total Price        -->
+                                <!--=================================================================== -->
+
+                                <div class="col-sm-8 pull-right">
+
+                                    <table class="table">
+
+                                        <thead>
+
+                                        <tr>
+                                            <th>Tax</th>
+                                            <th>Total</th>
+                                        </tr>
+
+                                        </thead>
+
+                                        <tbody>
+
+                                        <tr>
+
+                                            <td style="width: 50%">
+
+                                                <div class="input-group">
+
+                                                    <input type="number" class="form-control" min="0" id="taxPrice" name="taxPrice"
+                                                           placeholder="0" required>
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fas fa-dollar-sign"></i></span>
+                                                    </div>
+
+
+
+                                                </div>
+
+                                            </td>
+
+                                            <td style="width: 50%">
+
+                                                <div class="input-group">
+
+                                                    <input type="number" class="form-control" min="0" id="newTotalPrice" name="newTotalPrice"
+                                                           placeholder="0000" readonly required>
+
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fas fa-dollar-sign"></i></span>
+                                                    </div>
+                                                    <!--                                                                    <span class="input-group-append"><i class=""></i></span>-->
+
+                                                </div>
+
+                                            </td>
+
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+
+                                </div>
+
+
+
+
+                            </div>
+
+
+                            <hr>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="inputCity">City</label>
-                                    <input type="text" class="form-control" id="inputCity" required>
+                                    <select class="form-control" name="methodPayent" id="methodPayent" required>
+
+                                        <option value="">Select Payement</option>
+                                        <option value="">Cash</option>
+                                        <option value="">Credi Card</option>
+                                        <option value="">Debit Card</option>
+
+                                    </select>
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="inputState">State</label>
